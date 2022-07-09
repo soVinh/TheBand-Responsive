@@ -1,0 +1,66 @@
+những thứ thay đổi phần Reponsive
+
+tablet reponsive
+
+- lỗi khoảng trắng ở ảnh slider
+max--width 100 %  ở conten section
+
+- lỗi chữ sát lề content
+padding-left: 16px;
+padding-right: 16px;
+
+ở #content .content-section
+
+
+menu mobile reponsive
+
+tao file reponsive mobile
+
+xổ thanh menu xuống, bỏ thuộc tính block của thẻ li trong res mobile
+#nav li {
+        display:block;
+    }
+
+
+
+chiều cao header đang bị cố định
+ sử dụng js để tạo sự kiện đóng mở cho thanh menu
+ovefflow ẩn các đối tượng con thò ra khỏi cha
+ overflow: hidden; vào header
+
+ẩn nút tìm kiếm trong responsive
+
+thêm cái icon menu bar
+
+thêm thuộc tính bên css cho mobile menu
+thuộc tính mặc định và thuộc tính hover
+
+thêm js cho nút menu
+bắt sự kiện cho từng nút một
+
+
+mobile menu fixbog
+inline nó làm co lại, để block nó sẽ full phải 
+nh khi block thì nó bị văng đi
+1 thuộc tính nằm trên thuộc tính khác
+cần dùng position
+ẩn thanh menu trên pc và tablet
+
+float left 3 anhr 1 hang
+đặt class tổng quan để dùng lại
+repon riêng cho mobile
+
+
+sêm 48px để dễ bấm 
+còn lại là căn chỉnh cho hợp lý
+
+  <!-- ./ de ngnag hang -->
+            <!-- ../ de  thoát ra và đi tìm thư mục -->
+dùng cho lấy ảnh
+
+
+
+
+
+
+
